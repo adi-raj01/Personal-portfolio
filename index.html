@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb3802ba8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" alt="" class="logo">
+            <ul id="sideMenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li><i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul><i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Front-End development</p>
+            <h1>Hi, I'm <span>Aditya</span><br/>Srivastava From India</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image3.png" alt="About Me">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>Detail-Oriented Front-End Developer with a strong foundation in web technologies and a proven track record of building responsive, user-focused applications. Proficient in HTML, CSS, JavaScript, and React, with experience in integrating Back-End solutions. Adept at collaborating with cross-functional teams to deliver high-quality products. Seeking to leverage my skills in a dynamic development role to drive innovative solutions.</p><br>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                    <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                    <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-End</span><br/>HTML, CSS, JavaScript</li>
+                        <li><span>Framework</span><br/>React</li>
+                        <li><span>Back-End</span><br/>Node.js, Express.js</li>
+                        <li><span>DataBase</span><br/>MongoDB</li>
+                        <li><span>Tools</span><br/>Vs code</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Master of Computer Application |</span> Dec 2022 - Aug 2024<br/>Veer Bahadur Singh Purvanchal University, Jaunpur, India</li>
+                        <li><span>Bachelor of Science |</span> July 2019 - May 2022<br/>Veer Bahadur Singh Purvanchal University, Jaunpur, India</li>
+                        <li><span>Additional Qualification |</span> 2022<br/>ADCA (Advance Diploma in Computer Application)</li>
+                        <li><span>Intermediate |</span>2019<br/>BRP College, Jaunpur, India</li>
+                        <li><span>High School |</span>2017<br/>CBSE</li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Fresher</span><br/>Looking for the company experience</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+<div class="services-list">
+    <div>
+<h2>Design Implementation</h2>
+<p>Translating UI/UX designs into functional code. This involves using HTML, CSS, and JavaScript to build visually appealing and user-friendly interfaces. </p>
+<a href="#">Learn more</a>
+    </div>
+    <div>
+<h2>Front-End Frameworks and Libraries</h2>
+<p> Utilizing tools like React or others to streamline development and manage complex user interfaces. </p>
+<a href="#">Learn more</a>
+    </div>
+    <div>
+<h2>Integration with Back-End</h2>
+<p>Collaborating with back-end developers to integrate front-end code with server-side logic and databases, enabling dynamic and interactive features.
+</p>
+<a href="#">Learn more</a>
+    </div>
+</div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work">
+            <div class="work-list">
+                <img src="images.jpeg" >
+                <div class="layer">
+                    <h3>E-COMMERCE WEBSITE</h3>
+                    <p> Our e-commerce website is a comprehensive online shopping platform designed to provide users with a seamless and enjoyable shopping experience. </p>
+                    <a href="https://github.com/adi-raj01/E-commerce-website"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <div class="work-list">
+                <img src="images.jpeg" >
+                <div class="layer">
+                    <h3>NETFLIX CLONE</h3>
+                    <p>Our Netflix clone is a streaming platform designed to replicate the core functionalities of Netflix, providing users with a seamless experience </p>
+                    <a href="https://github.com/adi-raj01/Netflix-clone"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <div class="work-list">
+                <img src="images.jpeg">
+                <div class="layer">
+                    <h3>PERSONAL PORTFOLIO</h3>
+                    <p>Our personal portfolio is a dynamic showcase of skills, projects, and experiences, designed to highlight our expertise in web development.</p>
+                    <a href="https://github.com/adi-raj01/Personal-portfolio"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <div class="work-list">
+                <img src="images.jpeg" >
+                <div class="layer">
+                    <h3>WEATHER APP</h3>
+                    <p>Our weather app provides users with real-time weather updates, forecasts, and alerts, designed with a user-friendly interface and built with modern web technologies.</p>
+                    <a href="https://github.com/adi-raj01/Weather-App"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <div class="work-list">
+                <img src="images.jpeg" >
+                <div class="layer">
+                    <h3>IMAGE SEARCH ENGINE</h3>
+                    <p>Our Image Search Engine project highlights our ability to create efficient and visually appealing web applications.</p>
+                    <a href="https://github.com/adi-raj01/Image-search-Engine"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <div class="work-list">
+                <img src="images.jpeg" >
+                <div class="layer">
+                    <h3>BMI--CALCULATOR</h3>
+                    <p>Our BMI Calculator is a simple yet effective web application designed to help users calculate their Body Mass Index (BMI) and assess their weight status.</p>
+                    <a href="https://github.com/adi-raj01/BMI--CALCULATOR1"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <div class="work-list">
+                <img src="images.jpeg" >
+                <div class="layer">
+                    <h3>QR GENERATOR</h3>
+                    <p>Our QR Code Generator allows users to easily create customized QR codes for various purposes, such as linking to websites, sharing contact information, </p>
+                    <a href="https://github.com/adi-raj01/QR-Generator"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+       
+        <div class="work">
+            <div class="work-list">
+                <img src="images.jpeg" >
+                <div class="layer">
+                    <h3>PASSWORD GENERATOR</h3>
+                    <p>In the Password Generator  we can create the Password a/c to length, Number, char. We can increase the length according to the requirement</p>
+                    <a href="https://github.com/adi-raj01/Password-Generator"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://github.com/adi-raj01" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+
+<div class="container">
+<div class="row">
+    <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>aditya.raj16102001@gmail.com</p>
+        <p><i class="fa-solid fa-mobile"></i>9336763284</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100018406099517"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.linkedin.com/in/aditya-srivastava-3a62b331a/"><i class="fa-brands fa-linkedin"></i></a>
+<a href="https://github.com/adi-raj01"><i class="fa-brands fa-github"></i></a>
+
+        </div>
+        <a href="JOB RESUME.pdf" download class="btn btn2">Download Resume</a>
+    </div>
+    <form id="form">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+    </form>
+    <span id="msg"></span>
+     <div class="contact-right">
+      
+    </div>
+</div>
+</div>
+<div class="copyright">
+   <p><i class="fa-solid fa-copyright"></i> All content within this portfolio is protected by copyright and belongs to
+    <span class = copyname>Aditya srivastava.</span> Reproduction or use of any material without explicit permission is prohibited.</p> 
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
